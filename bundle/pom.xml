@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+	<groupId>org.eclipse.tycho.tycho-its</groupId>
+	<artifactId>ci-friendly-parent</artifactId>
+	<version>${releaseVersion}</version>
+</parent>
+<packaging>eclipse-plugin</packaging>
+	<artifactId>bundle</artifactId>
+	<version>${releaseVersion}</version>
+</project>
