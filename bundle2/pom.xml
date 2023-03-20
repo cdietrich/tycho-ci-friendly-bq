@@ -5,9 +5,9 @@
 	<parent>
 	<groupId>org.eclipse.tycho.tycho-its</groupId>
 	<artifactId>ci-friendly-parent</artifactId>
-	<version>${releaseVersion}</version>
+	<version>${releaseVersion}${qualifier}</version>
 </parent>
 <packaging>eclipse-plugin</packaging>
 	<artifactId>bundle2</artifactId>
-	<version>${releaseVersion}</version>
+	<version>${releaseVersion}${qualifier}</version>
 </project>

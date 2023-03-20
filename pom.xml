@@ -4,7 +4,7 @@
 	<groupId>org.eclipse.tycho.tycho-its</groupId>
 	<artifactId>ci-friendly-parent</artifactId>
 	<packaging>pom</packaging>
-	<version>${releaseVersion}</version>
+	<version>${releaseVersion}${qualifier}</version>
 	<modules>
 		<module>bundle</module>
 		<module>bundle2</module>
@@ -13,6 +13,7 @@
   <properties>
   	<!-- Define the release version used for unversioned items like pom file -->
     <releaseVersion>1.0.0</releaseVersion>
+    <qualifier>-SNAPSHOT</qualifier>
     <tycho-version>4.0.0-SNAPSHOT</tycho-version>
   </properties>
 	
