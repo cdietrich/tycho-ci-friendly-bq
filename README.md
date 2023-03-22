@@ -1,0 +1,1 @@
+apache-maven-3.8.7/bin/mvn clean install -DreleaseVersion=1.0.0 -Dqualifier=".M1" -Dtycho.version=4.0.0-SNAPSHOT -U
