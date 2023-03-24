@@ -15,7 +15,7 @@
   	<!-- Define the release version used for unversioned items like pom file -->
     <releaseVersion>1.0.0</releaseVersion>
     <qualifier>-SNAPSHOT</qualifier>
-    <tycho-version>4.0.0-SNAPSHOT</tycho-version>
+    <tycho-version>3.0.5-SNAPSHOT</tycho-version>
   </properties>
 	
 	<build>
